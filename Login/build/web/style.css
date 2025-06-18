@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans',sans-serif;
+}
+body *{
+    box-sizing: border-box;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login >h1{
+    font-size: 3vw;
+    color: #77ffc0;
+}
+.image-login{
+    width: 35vw;
+}
+
+.rigth-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px  35px ;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.card-login >h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.textfield >input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield >label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+.textfield >input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0 ;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.page-404{
+   
+    background-image: url('./images/404\ webpage.png'); /* Caminho para a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa durante o scroll */
+    background-position: center; /* Centraliza a imagem na página */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error-content{
+   box-sizing: border-box;
+   background-color:#69d6e9ea;
+   margin: auto;
+   width: 550px;
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */
+   position: relative;
+   top:190px;
+}
+.error-content h1{
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.error_h2{
+    text-align: center;
+    color: rgba(233, 105, 105, 0.916);
+}
+.link_error{
+    text-decoration: solid;
+    font-style: italic;
+    margin: 0 auto;
+}
+.links_pagerror{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    
+}
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center; 
+}
+
+label, input {
+  width: 100%; 
+    max-width: 300px; 
+}
+
+.submit-login{
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #77ffc0;
+    cursor: pointer;
+}
+.submit-login:hover{
+    background-color: #514869;
+    
+}
+.img-cadastro{
+    width: 100px;
+    max-width:300px ;
+    height: 100px;
+    margin: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color--neutral--silver);
+}
+.logo{
+    padding: 30px 0px;
+}
+.logo img{
+    height: 100px;
+    width:100px;
+}
+.nav-header ul{
+    display: flex;
+    list-style: none;/* nn quer q tenha a bolinha */
+    gap: 50px;
+}
+.nav-header ul a{
+    text-decoration: none; /*serve para tirar o sublinhado */
+    color: #18191F;
+}
+
+.btn-header{
+    gap: 14px;
+    padding: 22px 0px;
+}
+.botao-login{
+    color:var( --color-primary);
+    background:none ; /*remove a cor do fundo ou usar transparent*/
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn-SignUp{
+    color: var(--color--neutral--white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.consultarcontatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin:40px 50px;
+    align-items: center;
+
+}

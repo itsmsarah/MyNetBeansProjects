@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="cadastro.jsp" method="post">
+       <fieldset>
+      <img class="img-cadastro" src="./images/icon-cadastro.png" alt="icone/cadastro.png" title="icone de cadastro">
+        <br>
+        <legend>Cadastre sua conta</legend>
+        <label for="cpf">Seu CPF:<strong>(Apenas Números)</strong></label>
+        <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF aqui" required>
+        <br>
+        <br>
+        <label for="primeiro_nome">Qual seu primeiro nome?</label>
+        <input type="text" name="primeiro_nome" id="primeiro_nome" placeholder="Digite seu primeiro nome aqui" required>
+        <br>
+        <br>
+        <label for="segundo_nome">Qual seu segundo nome?</label>
+        <input type="text" name="segundo_nome" id="segundo_nome" placeholder="Digite seu segundo nome aqui" required>
+        <br>
+        <br>
+        <label for="endereco">Seu endereço:</label>
+        <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereco(rua/avenida)aqui" required>
+        <br>
+        <br>
+        <label for="cidade">Cidade em que reside:</label>
+        <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade em que mora" required>
+        <br>
+        <br>
+        <label for="estado">Estado em que reside:</label>
+        <input type="text" name="estado" id="estado" placeholder="Digite o estado em que mora(Ex:SP,RJ,AM)" required>
+        <br>
+        <br>
+        <label for="ddd">DDD do seu celular:</label>
+        <input type="text" name="ddd" id="ddd" placeholder="Digite o DDD do seu celular" maxlength="2"pattern="\d{2}" required>
+        <br>
+        <br>
+        <label for="celular">Digite o número do seu celular</label>
+        <input type="text" name="celular" id="celular" placeholder="Digite seu número de celular" required>
+        <br>
+        <br>
+        <label for="email">Informe seu e-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+        <br>
+        <br>
+        <label for="senha">Informe sua senha</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha aqui" required>
+        <br>
+        <br>
+        <label for="mes_nascimento">Digite o número do mês em que nasceu:</label>
+        <input type="number" name="mes_nascimento" id="mes_nascimento" min="1" max="12" placeholder="Digite de 1 a 12">
+        <br>
+        <button class="submit-login" type="submit">Enviar meus dados!</button>
+
+    </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="consultarcontatos">
+    <div class="consultar_nome">
+    <form method="get" action="consultarnome.jsp">
+    <h2>Consultar lista de contato pelo nome</h2>
+      <label for="primeiro_nome">Digite seu nome</label>
+       <input id="primeiro_nome" type="text" name="primeiro_nome" required>
+       <input class="input-pesquisar" type="submit" value="Pesquisar">
+    </form>
+    </div>
+    <div class="consultar_niver">
+      <form method="get" action="consultaraniver.jsp">
+     <h2>Caso queira consultar pelo mês que você nasceu:</h2>
+      <label for="mes_nascimento">Digite o número do mês do seu aniversário</label>
+       <input id="mes_nascimento" type="text" name="mes_nascimento" required>
+       <input class="input-pesquisar" type="submit" value="Pesquisar">
+    </form>
+    </div>
+</div>
+    </body>
+</html>
