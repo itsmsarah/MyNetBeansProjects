@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="consultarcontatos">
+    <div class="consultar_nome">
+    <form method="get" action="consultarnome.jsp">
+    <h2>Consultar lista de contato pelo nome</h2>
+      <label for="primeiro_nome">Digite seu nome</label>
+       <input id="primeiro_nome" type="text" name="primeiro_nome" required>
+       <input class="input-pesquisa" type="submit" value="Pesquisar">
+    </form>
+    </div>
+    <div class="consultar_niver">
+      <form method="get" action="consultaraniver.jsp">
+     <h2>Caso queira consultar pelo mês que você nasceu:</h2>
+      <label for="mes_nascimento">Digite o número do mês do seu aniversário</label>
+       <input id="mes_nascimento" type="text" name="mes_nascimento" required>
+       <input class="input-pesquisa" type="submit" value="Pesquisar">
+    </form>
+    </div>
+</div>
+</body>
+</html>
